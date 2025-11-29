@@ -40,14 +40,24 @@ Our findings indicate that the CatRAG system consistently outperforms the standa
 
 ## Citation
 ```bash
-@misc{ma2025rebotragcatragsemantic,
-      title={REBot: From RAG to CatRAG with Semantic Enrichment and Graph Routing}, 
-      author={Thanh Ma and Tri-Tam La and Lam-Thu Le Huu and Minh-Nghi Nguyen and Khanh-Van Pham Luu and Huu-Hoa Nguyen},
-      year={2025},
-      eprint={2510.01800},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2510.01800}, 
+@InProceedings{10.1007/978-981-95-4960-3_35,
+author="Ma, Thanh
+and La, Tri-Tam
+and Le Huu, Lam-Thu
+and Nguyen, Minh-Nghi
+and Pham Luu, Khanh-Van",
+editor="Quan, Thanh Tho
+and Sombattheera, Chattrakul
+and Pham, Hoang-Anh
+and Tran, Ngoc Thinh",
+title="REBot: From RAG to CatRAG with Semantic Enrichment and Graph Routing",
+booktitle="Multi-disciplinary Trends in Artificial Intelligence",
+year="2026",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="435--447",
+abstract="Academic regulation advising is vital for helping students interpret and comply with institutional policies, yet building effective systems requires domain-specific regulatory resources. To address this challenge, we propose REBot, an LLM-enhanced advisory chatbot powered by CatRAG, a hybrid retrieval--reasoning framework that integrates RAG with GraphRAG. We introduce CatRAG that unifies dense retrieval and graph-based reasoning, supported by a hierarchical, category-labeled knowledge graph enriched with semantic features for domain alignment. A lightweight intent classifier routes queries to the appropriate retrieval modules, ensuring both factual accuracy and contextual depth. We construct a regulation-specific dataset and assess REBot on classification and question-answering tasks, achieving state-of-the-art performance with an F1-score of 98.89{\%}. Finally, we implement a web application that demonstrates the practical value of REBot in real-world academic advising scenarios.",
+isbn="978-981-95-4960-3"
 }
 ```
 ## Acknowledgement
