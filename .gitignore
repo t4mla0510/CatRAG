@@ -1,0 +1,8 @@
+.env
+__pycache__
+/classify/models/
+/relationships/
+/storage/
+/evaluation/
+.DS_Store
+/data/
